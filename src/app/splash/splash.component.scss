@@ -1,0 +1,18 @@
+.main {
+    height: 100vh;
+    background: lightblue;
+    .title {
+        font-size: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        button {
+            font-size: 30px;
+        }
+    }
+}
